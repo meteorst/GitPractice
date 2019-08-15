@@ -24,4 +24,12 @@ public class GitTest {
     public void setGitEmail(String gitEmail) {
         this.gitEmail = gitEmail;
     }
+
+    @Override
+    public String toString() {
+        return "GitTest{" +
+                "gitName='" + gitName + '\'' +
+                ", gitEmail='" + gitEmail + '\'' +
+                '}';
+    }
 }
